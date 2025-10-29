@@ -13,9 +13,9 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 
-    private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=SIGFarmaciaDB;encrypt=false;";
-    private static final String USER = "SQL/jadrianh";
-    private static final String PASSWORD = "1234";
+    private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=SIGFarmaciaDB;encrypt=true;trustServerCertificate=true;";
+    private static final String USER = "jadrianh";
+    private static final String PASSWORD = "123";
 
     public static Connection getConnection() {
         Connection conn = null;

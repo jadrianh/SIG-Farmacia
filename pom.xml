@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>12.6.0.jre17</version>
+            <version>13.2.0.jre11</version>
         </dependency>
 
         <!-- JSTL -->
@@ -48,6 +48,13 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+        
+        <!-- JBCrypt -->
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+         </dependency>
     </dependencies>
 
     <build>

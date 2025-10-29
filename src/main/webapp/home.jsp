@@ -7,7 +7,6 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ page import="com.damp.sig.farmacia.model.Usuario" %>
 <%
-    HttpSession session = request.getSession(false);
     if (session == null || session.getAttribute("usuario") == null) {
         response.sendRedirect("index.jsp");
         return;
