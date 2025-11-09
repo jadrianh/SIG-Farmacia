@@ -5,6 +5,13 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    if (session == null || session.getAttribute("usuario") == null) {
+        response.sendRedirect("index.jsp");
+        return;
+    }
+    Usuario user = (Usuario) session.getAttribute("usuario");
+%>
 <!DOCTYPE html>
 <html>
 <head>
