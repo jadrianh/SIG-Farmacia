@@ -21,9 +21,7 @@
     ></script>
   </head>
   <body>
-    <section
-      class="w-100 vh-100 bg-primary justify-content-center py-5 py-md-5 py-xl-8"
-    >
+    <section class="w-100 vh-100 bg-primary justify-content-center py-5 py-md-5 py-xl-8">
       <div class="container">
         <div class="row gy-4 justify-content-center align-items-center">
           <div class="col-12 col-md-6 col-xl-7">
